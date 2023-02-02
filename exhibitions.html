@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<h3>아래에 전시 목록이 나타나야 합니다.</h3>
+	<div class = "exhibitionscontainer"></div>
+
+	<p><a href="/login">로그인 페이지</a></p>
+    <p><a href="/exhibitions">전시회 목록 페이지</a></p>
+    <p><a href="/security">인증 테스트 페이지</a></p>
+	
+	<script src = "js/custom.js"></script>
+	<script>
+		window.addEventListener('DOMContentLoaded', function () {
+			renderExhibitions();
+		});
+	</script>
+</body>
+</html>
